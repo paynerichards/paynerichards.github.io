@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackjack</title>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class='top'>
+			<div class="deck">
+				<img class="deck" id="deckImage" src='media/cardBack.jpg'>
+			</div>
+			<div class="dealerCards">
+				<div class="valCounterHolder">
+					<span class="valCounter countDeal"></span>
+				</div>
+			</div>
+			
+			<div class="scoreBoard">
+				<div id="gamblerScore" class="scores">Player: 0</div>
+				<div id="dealerScore" class="scores">Dealer: 0</div>
+			</div>
+		</div>
+		<div class="middle">
+			<div class="midText">
+				<h1>Blackjack</h1>
+				<h3>Dealer stands on 17 and draws on 16</h3>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="interface">
+				<div class='iFaceLeft'>
+					<button class='btn' id='dealBtn'>Deal</button>
+				</div>
+				<div class='iFaceRight'>
+					<button class='btn' id="hitBtn">Hit</button>
+					<button class='btn' id="standBtn">Stand</button>
+					<!-- <button class='btn' id='splitBtn'>Split</button> -->
+				</div>
+			</div>
+			<div class="gamblerCards">
+			</div>
+			<div class="valCounterHolder">
+				<span class="valCounter countGam"></span>
+			</div>
+			<div class="splitCards">
+			</div>
+			<div class="valCounterHolder">
+				<span class="valCounter countSplit" ></span>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

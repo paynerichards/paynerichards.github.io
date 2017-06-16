@@ -1,0 +1,197 @@
+@font-face{
+	font-family: CardFont;
+	src: url(../media/cardcharacters/CARDC___.TTF);
+}
+
+body{
+	background-image: url('../media/379.jpg');
+	font-family: CardFont, serif;
+}
+
+.top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.deck{
+	background-color: #aaaaaa;
+	height: 200px;
+	width: 160px;
+	border-radius: 5px;
+	box-shadow: -5px 5px 15px 0px rgba(50, 50, 50, 0.6);
+
+}
+.dealerCards{
+	display: flex;
+	margin-left: 10px;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.card, #hiddenCard{
+	height: 150px;
+	width: 120px;
+	margin: 5px;
+	box-shadow: -5px 5px 15px 0px rgba(50, 50, 50, 0.6);
+
+}
+.scoreBoard{
+	background-color: white;
+	height: 80px;
+	width: 110px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius: 5px;
+	margin-left: 5px;
+	box-shadow: -5px 5px 15px 0px rgba(50, 50, 50, 0.6);
+
+}
+.scores{
+	text-align: center;
+}
+.middle{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.midText{
+	font-family: CardFont, serif;
+/*	background-color: #20305C;
+*/	background-image: url(../media/navyFelt.jpg);
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: -5px 5px 15px 0px rgba(50, 50, 50, 0.6);
+
+}
+
+h1, h3{
+	color: white;
+}
+h1{
+	font-size: 50px;
+}
+h3{
+	padding: 0px 10px
+}
+.bottom{
+	display: flex;
+	justify-content: flex-start;
+}
+.interface{
+	display: flex;
+	margin: 10px;
+	height: 201px;
+}
+.iFaceLeft{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.iFaceRight{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.gamblerCards{
+	display: flex;
+	margin-left: 20px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.btn {
+  background: #1a72ad;
+  background-image: -webkit-linear-gradient(top, #1a72ad, #032f4a);
+  background-image: -moz-linear-gradient(top, #1a72ad, #032f4a);
+  background-image: -ms-linear-gradient(top, #1a72ad, #032f4a);
+  background-image: -o-linear-gradient(top, #1a72ad, #032f4a);
+  background-image: linear-gradient(to bottom, #1a72ad, #032f4a);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: CardFont, serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 25px 15px 25px;
+  text-decoration: none;
+  margin: 5px;
+  box-shadow: -5px 5px 15px 0px rgba(50, 50, 50, 0.6);
+
+}
+
+.btn:hover {
+  background: #9e1818;
+  background-image: -webkit-linear-gradient(top, #9e1818, #690f0f);
+  background-image: -moz-linear-gradient(top, #9e1818, #690f0f);
+  background-image: -ms-linear-gradient(top, #9e1818, #690f0f);
+  background-image: -o-linear-gradient(top, #9e1818, #690f0f);
+  background-image: linear-gradient(to bottom, #9e1818, #690f0f);
+  text-decoration: none;
+}
+
+#hiddenCard{
+	border-radius: 5px;
+}
+
+.valCounterHolder{
+	display: flex;
+	align-items: center;
+}
+
+
+.valCounter{
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	display: none;
+	box-shadow: -5px 5px 15px 0px rgba(50, 50, 50, 0.6);
+
+}
+.splitCards{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.countSplit, .countDeal{
+	display: none;
+}
+.winScreen{
+	z-index: 10000;
+	color: white;
+	text-align: center;
+	position: fixed;
+	background-color: rgba(22, 104, 159, .98);
+	height: 300px;
+	width: 50%;
+	margin: auto;
+	top: 19%;
+	right: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+	box-shadow: -9px 9px 15px 0px rgba(50, 50, 50, 0.6);
+	flex-direction: column;
+}
+.winText{
+	font-size: 72px;
+}
+.reason{
+	font-size: 24px;
+    padding-top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
